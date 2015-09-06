@@ -50,11 +50,13 @@
 	z-index:9;
 }
 .button {
-	background-color: #0CC;
+	background-color: #0FF;
 	position: absolute;
 	visibility: visible;
-	width: 103px;
-	height: 33px;
+	width: 89px;
+	height: 28px;
+	left: 169px;
+	top: 152px;
 }
 #apDiv17 {
 	position:absolute;

@@ -6,7 +6,7 @@
 </style>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 
-<link href="main.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/signup.css">  
 <script type="text/javascript" src="malith.js"></script>  
 <script type="text/javascript" src="js/formvalid.js"></script> 
@@ -35,13 +35,12 @@
 	background-image: url(back.jpg);
 }
 #apDiv10 {
-	position: absolute;
-	left: 3px;
-	top: 75px;
-	width: 1319px;
-	height: 718px;
-	z-index: 7;
-	background-image: url(back.jpg);
+	position:absolute;
+	left:3px;
+	top:75px;
+	width:1351px;
+	height:593px;
+	z-index:7;
 }
 #apDiv11 {
 	position:absolute;
@@ -68,13 +67,13 @@
 	visibility: visible;
 	width: 108px;
 	height: 42px;
-	left: -22px;
-	top: 2px;
+	left: 85px;
+	top: -9px;
 }
 #apDiv13 {
 	position:absolute;
-	left:921px;
-	top:15px;
+	left:1056px;
+	top:8px;
 	width:121px;
 	height:39px;
 	z-index:10;
@@ -83,12 +82,16 @@
 #apDiv13 a {
 	font-size: 18px;
 }
-#apDiv2 {
-	font-size: 36px;
+.backnew {
+	background-image: url(back.jpg);
+	position: absolute;
+	width: 672px;
+	height: 563px;
+	left: 323px;
+	top: -14px;
 }
-#apDiv2 p {
-	font-weight: bold;
-	text-align: center;
+.lj {
+	font-size: 36px;
 }
 </style>
 </head>
@@ -98,12 +101,12 @@
 <div class="Login" id="apDiv1"></div>
 
 <div id="apDiv2">
-  <p><em><strong>Chat Hub</strong></em></p>
+  <p class="lj"><em><strong>	Chat Hub</strong></em></p>
 </div>
 <div id="apDiv3">
 <ul id="MenuBar1" class="MenuBarHorizontal">
   <li></li>
-  <li><a href="home.html">HOME</a></li>
+  <li><a href="index.html">HOME</a></li>
 </ul>
 <p>&nbsp;</p>
 
@@ -135,7 +138,7 @@ var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenu
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p>
+    <p class="backnew">&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
@@ -160,7 +163,7 @@ var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenu
 </div>
 <div id="apDiv5">
   <p>&nbsp;</p>
-  <p>All Rights Reserved</p>
+  <p>All Rights Reserved </p>
 </div>
 <div id="apDiv8">
 

@@ -6,7 +6,7 @@
 </style>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 
-<link href="main.css" rel="stylesheet">
+<link href="login.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/signup.css">  
 <script type="text/javascript" src="malith.js"></script>  
 <script type="text/javascript" src="js/formvalid.js"></script> 
@@ -14,19 +14,53 @@
 <style type="text/css">
 #apDiv13 {
 	position:absolute;
-	left:116px;
-	top:148px;
+	left:150px;
+	top:121px;
 	width:457px;
 	height:283px;
 	z-index:6;
+	visibility: visible;
 }
 #apDiv14 {
 	position:absolute;
-	left:801px;
-	top:181px;
+	left:233px;
+	top:377px;
 	width:153px;
 	height:96px;
 	z-index:7;
+}
+#apDiv15 {
+	position:absolute;
+	left:675px;
+	top:146px;
+	width:491px;
+	height:243px;
+	z-index:8;
+	background-image: url(truecaller-sign-in-social-small-2.png);
+}
+.j {
+	font-weight: bold;
+}
+.kj {
+	font-weight: bold;
+}
+.j {
+	font-size: 36px;
+}
+.j {
+	font-size: 14px;
+}
+.j {
+	font-size: 18px;
+}
+.jj {
+	font-size: 16px;
+}
+.kl {
+	font-size: 17px;
+}
+.klkl {
+	font-weight: bold;
 }
 </style>
 </head>
@@ -66,25 +100,26 @@ var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenu
 <div id="apDiv13">
 <form method="post" action="login.php">
 <p>
-<label> Username  </label>
+<label class="kj"> Username  </label>
 <input name="username" type="text">
 </p>
 
 <p>
-<label> Password  </label>
-<input name="password" type="password" >
+<label class="klkl"> Password  </label>
+  <input name="password" type="password" >
 </p>
 
 <p><input name="remember" type="checkbox" value="">
 <label> Remember me  </label>
 </p>
 
-<input id="button" name="Login" type="submit" value="Login"> 
+<input name="Login" type="submit" class="button" id="button" value="Login"> 
 </form>
 </div>
 <div id="apDiv14">
 <a href="signup.html"><img src="register.png" width="150" height="105"></a>
 </div>
+<div id="apDiv15"></div>
 <div>
   <p>ytgjgiyguyhkbdfhbghfgfjfjjffnfdfnnngf</p>
 </div>
